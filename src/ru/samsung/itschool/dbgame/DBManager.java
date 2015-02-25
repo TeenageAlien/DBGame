@@ -27,7 +27,7 @@ public class DBManager {
 
 	private DBManager(Context context) {
 		this.context = context;
-		db = context.openOrCreateDatabase(DB_NAME, Context.MODE_PRIVATE, null);
+		db = context.openOrCreateDatabase(DB_NAME, Context, null);
 		createTablesIfNeedBe(); 
 	}
 
